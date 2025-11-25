@@ -8,15 +8,17 @@ import pydeck as pdk
 from sklearn.preprocessing import StandardScaler
 import warnings
 warnings.filterwarnings('ignore')
+import streamlit as st
+import boto3
+import mlflow
+import joblib
+import tempfile
+from mlflow.tracking import MlflowClient
 
-# MLflow imports
-try:
-    import mlflow
-    from mlflow.tracking import MlflowClient
-    MLFLOW_AVAILABLE = True
-except:
-    MLFLOW_AVAILABLE = False
-    st.warning(" MLflow not available. Install with: pip install mlflow")
+AWS_KEY = st.secrets["AWS_ACCESS_KEY_ID"]
+AWS_SECRET = st.secrets["AWS_SECRET_ACCESS_KEY"]
+AWS_REGION = st.secrets["AWS_DEFAULT_REGION"]
+MLFLOW_AVAILABLE = True
 
 # ============================================================================
 # PAGE CONFIG
