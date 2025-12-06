@@ -97,7 +97,8 @@ def load_data():
 def load_mlflow_models():
     """Load registered models from MLflow registry"""
     try:
-        mlflow.set_tracking_uri("http://13.233.98.214:5000")
+        mlflow.set_tracking_uri("http://13.126.135.254:5000")
+        
 
         # 🔥 Your exact model names from MLflow
         GEO_MODEL_NAME = "PatrolIQ_Best_Model"
