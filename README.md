@@ -1,17 +1,4 @@
-Below is your **FINAL, CLEAN, PRODUCTION-READY `README.md`** —
-fully updated with:
 
-✔ Streamlit Cloud deployment
-✔ CI/CD (GitHub → Streamlit Auto-deploy)
-✔ MLflow on AWS
-✔ S3 + RDS
-✔ Google Drive dataset loading
-✔ Correct folder structure (based on your screenshot)
-✔ Professional formatting
-
-Copy–paste directly into your repo.
-
----
 
 # 🚔 **PatrolIQ – Smart Safety Analytics Platform**
 
@@ -261,4 +248,4 @@ GitHub: [https://github.com/SachinMosambe](https://github.com/SachinMosambe)
 
 ---
 
-If you want badges (Python version, CI status, Streamlit badge) added at the top, I can generate them too.
+

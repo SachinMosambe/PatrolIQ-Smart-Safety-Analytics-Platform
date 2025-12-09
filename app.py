@@ -97,7 +97,7 @@ def load_data():
 def load_mlflow_models():
     """Load registered models from MLflow registry"""
     try:
-        mlflow.set_tracking_uri("http://13.126.135.254:5000")
+        mlflow.set_tracking_uri("http://65.0.11.51:5000")
         
 
         # 🔥 Your exact model names from MLflow
@@ -651,7 +651,7 @@ elif page == "🔬 Dimensionality Reduction":
         
         st.success(" t-SNE completed!")
 # ============================================================================
-# PAGE 5: MODEL PERFORMANCE - ADD THIS AFTER PAGE 4 IN YOUR app1.py
+# PAGE 5: MODEL PERFORMANCE -
 # ============================================================================
 
 elif page == "🎯 Model Performance":
